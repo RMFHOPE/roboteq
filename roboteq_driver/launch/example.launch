@@ -3,5 +3,6 @@
   <node pkg="roboteq_driver" type="driver_node" name="roboteq_driver" output="screen">
     <param name="port" value="$(arg port)" />
     <param name="baud" value="115200" />
+    <rosparam param="channels">[channel1, channel2]</rosparam>
   </node>
 </launch>
